@@ -1,0 +1,32 @@
+// c variables and data types
+// preprocessor directive
+#include <stdio.h>
+int main() {
+    char a ;
+    char name [5] ;
+    int age;
+    float area;
+    double salary;
+    
+    printf("Enter a character:");
+    scanf("%c", &a);
+    printf("The character is %c\n" ,a);
+    
+    printf("Enter your name ;");
+    scanf("%s", &name);
+    printf("The string is %s\n", name);
+    
+    printf("Enter your age:");
+    scanf ("%d", &age);
+    printf("The age is %d\n", age);
+    
+    printf("Enter the area:");
+    scanf("%f", &area);
+    printf("The area is %f\n", area);
+    
+    printf("Enter the salary :");
+    scanf("%lf", &salary);
+    printf("The salary is %lf\n", salary);
+    
+    return 0;
+}
